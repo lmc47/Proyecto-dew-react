@@ -1,0 +1,84 @@
+/* Cabecera */
+
+.cabecera {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 20px;
+    background-color: #303241;
+    color: white;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.menu img {
+    width: 30px;
+    height: auto;
+}
+
+/* Media queries para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .logo h1 {
+        font-size: 20px; /* Reducir el tamaño del texto del logo en dispositivos pequeños */
+    }
+
+    .menu ul {
+        flex-direction: column; /* Apila los elementos en columnas en dispositivos pequeños */
+        align-items: flex-end; /* Alinea los elementos a la derecha en dispositivos pequeños */
+    }
+
+    .menu li {
+        margin: 10px 0; /* Añade espacio entre los elementos de la lista en dispositivos pequeños */
+    }
+}
+
+/* Estilos para el contenedor del logo y el texto */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
+.logo h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0; /* Eliminar el margen del h1 por defecto */
+}
+
+/* Otros estilos permanecen iguales */

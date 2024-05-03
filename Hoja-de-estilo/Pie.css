@@ -1,0 +1,97 @@
+/*Footer*/
+
+
+
+.footer-links ul {
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;	
+}
+
+.footerRow {
+	display: flex;		
+}
+
+.footer-links {
+	width: 20%;
+	padding: 0 15px;
+}
+
+.footer-links h4 {
+	color: white;
+	margin-bottom: 10px;
+	border-bottom: 3px solid #e61610;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+
+.footer-links ul li a {
+	color: white;
+	display: inline-block;
+	padding-bottom: 10px;	
+}
+
+.footer-links ul li a:hover {
+    color: red;
+    padding: 6px;
+}
+
+
+
+
+/*Para quese pongan el paralelo y el wrap para que no se ponga en columna cuando se pase el ancho*/
+.footer-row{
+	display: flex;
+	
+}
+
+
+/*Distancia entre las listas*/
+.footer-links{
+	width: 25%;
+	padding: 0 15px;
+}
+.footer-links a {
+	color: #FFFFFF;
+}
+
+.footer-links h4 {
+	font-size: 15px;
+	color: #FFFFFF;
+	margin-bottom: 25px; /*separacion entre h4 y la lista*/
+	font-weight: 500;
+	border-bottom: 2px solid #e61610; /*linea abajo del h4*/
+	padding-bottom: 5px;
+	display: inline-block; /*para que se ajuste al tamaño del h4*/
+}
+
+.footer-links img {
+	width: 22px;
+	padding-right: 5px;
+}
+
+.containerLogo{
+	display: flex;
+	margin-right: -200px;
+}
+
+
+.footer-logo {
+	width: 13%;
+	
+}
+
+.footer-logo h4{
+	margin-top: 20px;
+	font-size: 25px;
+	font-weight: 1000px;
+	color: #FFFFFF;
+}
+
+.footer-logo img{
+	width: 80%;
+}

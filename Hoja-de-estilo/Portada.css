@@ -1,0 +1,111 @@
+/*Portadas*/
+
+/*Banner*/
+.containerCover {
+    width: 100%;
+    height: 500px;
+	position: relative;
+    background-image: url(../img/banners/banner.webp);
+    top: 80px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*imagen y descripcion*/
+.containerInfo{
+    max-width: 100рх;
+    height: 500px;
+    margin: outo;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+	color: white;
+}
+
+/*tamaño de las imagenes*/
+.containerImg a img {
+	width: 200px;
+	height: 100px;
+	object-fit: cover;
+
+
+}
+/*boton comprar ahora*/
+
+.botonComprar{
+	width: 163px;
+	height: 42px;
+	padding: 0px 10px 0px 10px;
+	background: #9C29B7;
+	color: #FFFFFF;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 8px 8px 8px 8px;
+	font-family: "JetBrains Mono";
+	font-weight: 700;
+	font-size: 15px;
+	text-align: center;
+	transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+
+	
+}
+.botonComprar a{	
+	background: #9C29B7;
+	color: #FFFFFF;
+	
+}
+
+
+.botonComprar:hover {
+	background-color: #7E1C99; /* Color de fondo diferente al hacer hover */
+}
+
+
+/*rectangulo de las imagenes*/
+.rectangulo a img {
+	width: 162px;
+	height: 132px;
+	padding: 8px 8px 8px 8px;
+	background: #F7F6F600;
+	border-color: #7A7A7A;
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+}
+
+.rectangulo1 {
+	width: 500px;
+	text-align: center;
+	background: #F7F6F600;
+	border-color: #7A7A7A;
+	border-width: 1px;
+	border-style: solid;
+	display: inline-block;
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-top: auto;
+	position: relative;
+	justify-content: space-between;
+	
+}
+.recomendado1{
+	text-align: center;
+}
+
+.recomendado2{
+	text-align: center;
+}
+.losRecomendados{
+	display: flex;
+    text-align: center;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+
+/*Portadas*/
+
